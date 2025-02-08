@@ -75,7 +75,7 @@ const JobForm = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-4">Job Form</h2>
+      <h2 className="text-2xl font-semibold text-gray-800 mb-4">Admin Panel</h2>
       <form onSubmit={handleSubmit}>
         <div className="space-y-4">
           <input
@@ -95,50 +95,160 @@ const JobForm = () => {
           ></textarea>
         </div>
 
-        <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">Experience Details</h3>
+        <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">
+          Experience Details
+        </h3>
         <div className="space-y-2">
-          <input type="text" name="year" value={newExperience.year} onChange={handleExperienceChange} placeholder="Year" className="w-full p-2 border border-gray-300 rounded-md" />
-          <input type="text" name="title" value={newExperience.title} onChange={handleExperienceChange} placeholder="Title" className="w-full p-2 border border-gray-300 rounded-md" />
-          <input type="text" name="duration" value={newExperience.duration} onChange={handleExperienceChange} placeholder="Duration" className="w-full p-2 border border-gray-300 rounded-md" />
-          <input type="text" name="details" value={newExperience.details} onChange={handleExperienceChange} placeholder="Details" className="w-full p-2 border border-gray-300 rounded-md" />
-          <input type="text" name="position" value={newExperience.position} onChange={handleExperienceChange} placeholder="Position" className="w-full p-2 border border-gray-300 rounded-md" />
+          <input
+            type="text"
+            name="year"
+            value={newExperience.year}
+            onChange={handleExperienceChange}
+            placeholder="Year"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
+          <input
+            type="text"
+            name="title"
+            value={newExperience.title}
+            onChange={handleExperienceChange}
+            placeholder="Title"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
+          <input
+            type="text"
+            name="duration"
+            value={newExperience.duration}
+            onChange={handleExperienceChange}
+            placeholder="Duration"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
+          <input
+            type="text"
+            name="details"
+            value={newExperience.details}
+            onChange={handleExperienceChange}
+            placeholder="Details"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
+          <input
+            type="text"
+            name="position"
+            value={newExperience.position}
+            onChange={handleExperienceChange}
+            placeholder="Position"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
         </div>
 
         <div className="flex gap-4 mt-4">
           <label>
-            <input type="radio" name="action" value="add" checked={formData.action === "add"} onChange={handleChange} className="mr-2" />
+            <input
+              type="radio"
+              name="action"
+              value="add"
+              checked={formData.action === "add"}
+              onChange={handleChange}
+              className="mr-2"
+            />
             Add Experience
           </label>
           <label>
-            <input type="radio" name="action" value="edit" checked={formData.action === "edit"} onChange={handleChange} className="mr-2" />
+            <input
+              type="radio"
+              name="action"
+              value="edit"
+              checked={formData.action === "edit"}
+              onChange={handleChange}
+              className="mr-2"
+            />
             Edit Experience
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="action"
+              value="delete"
+              checked={formData.action === "delete"}
+              onChange={handleChange}
+              className="mr-2"
+            />
+            Delete Experience
           </label>
         </div>
 
-        <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">Upload Image</h3>
+        <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">
+          Upload Image
+        </h3>
         <div className="space-y-2">
-          <input type="text" name="title" value={imageData.title} onChange={handleImageChange} placeholder="Image Title" className="w-full p-2 border border-gray-300 rounded-md" />
-          <input type="text" name="description" value={imageData.description} onChange={handleImageChange} placeholder="Image Description" className="w-full p-2 border border-gray-300 rounded-md" />
-          <input type="file" name="file" accept="image/*" onChange={handleImageChange} className="w-full p-2 border border-gray-300 rounded-md" />
+          <input
+            type="text"
+            name="title"
+            value={imageData.title}
+            onChange={handleImageChange}
+            placeholder="Image Title"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
+          <input
+            type="text"
+            name="description"
+            value={imageData.description}
+            onChange={handleImageChange}
+            placeholder="Image Description"
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
+          <input
+            type="file"
+            name="file"
+            accept="image/*"
+            onChange={handleImageChange}
+            className="w-full p-2 border border-gray-300 rounded-md"
+          />
         </div>
 
-        <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">Select Image Position</h3>
+        <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">
+          Select Image Position
+        </h3>
         <div className="flex gap-4">
           <label>
-            <input type="radio" name="imagePosition" value="1" checked={formData.imagePosition === "1"} onChange={handleChange} className="mr-2" />
+            <input
+              type="radio"
+              name="imagePosition"
+              value="1"
+              checked={formData.imagePosition === "1"}
+              onChange={handleChange}
+              className="mr-2"
+            />
             1
           </label>
           <label>
-            <input type="radio" name="imagePosition" value="2" checked={formData.imagePosition === "2"} onChange={handleChange} className="mr-2" />
+            <input
+              type="radio"
+              name="imagePosition"
+              value="2"
+              checked={formData.imagePosition === "2"}
+              onChange={handleChange}
+              className="mr-2"
+            />
             2
           </label>
           <label>
-            <input type="radio" name="imagePosition" value="3" checked={formData.imagePosition === "3"} onChange={handleChange} className="mr-2" />
+            <input
+              type="radio"
+              name="imagePosition"
+              value="3"
+              checked={formData.imagePosition === "3"}
+              onChange={handleChange}
+              className="mr-2"
+            />
             3
           </label>
         </div>
 
-        <button type="submit" className="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 transition duration-200 mt-4">
+        <button
+          type="submit"
+          className="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 transition duration-200 mt-4"
+        >
           Submit
         </button>
       </form>
