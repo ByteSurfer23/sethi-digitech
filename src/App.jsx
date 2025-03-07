@@ -1,24 +1,25 @@
-import Main_Portfolio from "./pages/Portfolio.jsx";
-import React from "react";
-import { BrowserRouter as Router, Routes, Route , Navigate} from "react-router-dom";
-import Admin from "./pages/Admin.jsx";
-import AdminLogin from "./pages/AdminLogin.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./new_pages/Layout";
+import Home from "./new_pages/Home";
+import About from "./new_pages/About";
+import Services from "./new_pages/Services";
+import Train from "./new_pages/Train";
+import Contact from "./new_pages/Contact";
 
 const App = () => {
-	const PrivateRoute = ({ element }) => {
-		const isAuthenticated = document.cookie.includes("token"); // Check if JWT token exists
-		console.log(isAuthenticated);
-		return isAuthenticated ? element : <Navigate to="/admin" />; // Redirect if not authenticated
-	  };
-	return (
-		<Router>
-		  <Routes>
-			<Route path="/" element={<Main_Portfolio/>} />
-			<Route path="/admin-login" element={<AdminLogin />} />
-			<Route path="/admin" element={<PrivateRoute element={<Admin />} />} />
-		  </Routes>
-		</Router>
-	  );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="training" element={<Train />} />
+          <Route path="contact" element={<Contact/>} />
+        </Route>
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
