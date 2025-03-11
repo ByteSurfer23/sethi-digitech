@@ -67,7 +67,7 @@ const Layout = () => {
       </button> */}
 
       {/* Navbar */}
-      <nav className=" flex items-center justify-center py-2 px-4 sm:py-2 sm:px-4 bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-500 ">
+      <nav className=" flex items-center justify-center py-2 px-4 sm:py-2 sm:px-4 bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-500 sm:mr-0 mr-8">
         
  
         
