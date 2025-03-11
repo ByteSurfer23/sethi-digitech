@@ -8,8 +8,8 @@ const testimonials = [
     review: "Played a vital role in digitally marketing our Dental Clinic business. The owner is skilled in Managing Google Business Profiles, SEO, Social Media Marketing, Logo Design & Brand Strategy. Highly recommended for Digital Marketing Services.",
   },
   {
-    name: "Rajiv Mehta",
-    role: "(Manager, Future Tech)",
+    name: "Nikhil Rishi",
+    role: "(Director, BioSarthi)",
     review: "Sethi DigiTech has been a game-changer for us! Their structured Content Creation Framework streamlined our strategy, while their expert handling of our social media, content writing, video editing, and design services has amplified our brand’s impact. Highly recommended!",
   },
   {
@@ -28,7 +28,7 @@ const TestimonialSection = () => {
   return (
     <div className="w-full max-w-7xl mx-auto px-6 py-12">
       {/* Title */}
-      <h2 className="text-3xl font-bold text-black text-center mb-4">
+      <h2 className="text-3xl font-bold text-white text-center mb-4">
         Customer Testimonials
       </h2>
       <p className="text-gray-400 text-center mb-8">

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
 const steps = [
-  "Research & Planning",
-  "Concept Development",
-  "Wireframing & UI Design",
-  "Frontend & Backend Development",
-  "Testing & Debugging",
-  "Launch & Maintenance"
+  "Defining the Objective 🎯 - Set clear goals to create a roadmap for measurable success.",
+  "Understanding Your Target Group 👥 - Dive deep into customer insights for targeted connections.",
+  "Competitor Analysis 🔍 - Analyze competitors to position your brand ahead.",
+  "Defining KPIs for Tracking 📊 - Set measurable KPIs to ensure strategy effectiveness.",
+  "Executing the Plan 🚀 - Implement targeted campaigns with engaging visuals and content",
+  "Analyzing, Adjusting & Reporting 🔄 - Monitor performance, refine strategies, and maintain transparent reporting."
 ];
 
 export default function ScrollingSteps() {

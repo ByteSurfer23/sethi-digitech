@@ -30,7 +30,7 @@ export default function UnlockAIPotential() {
       {/* Hero Section */}
       <div 
         className="flex flex-col items-center justify-center text-center py-16 px-4 max-w-screen-xl rounded-xl bg-cover bg-center mt-16 w-[90%] mx-auto h-[70vh] sm:h-[60vh]"
-        style={{ backgroundImage: "url('https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676927/Contact_1_wovdc6.jpg')" }}
+        style={{ backgroundImage: "url('https://res.cloudinary.com/ddljq4uyx/image/upload/v1741712829/contact_us_final_lnhvgv.jpg')" }}
       >
         <motion.h1
           initial={{ opacity: 0, y: 100, filter: "blur(10px)" }}

@@ -7,8 +7,8 @@ import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const data = [
   { id: 1, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676302/Vansh_Sethi_hrbfz4.jpg", title: "Vansh Sethi", desc: "Founder" },
-  { id: 2, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676279/Surekha_Sethi_yuxeed.jpg", title: "Surekha Sethi", desc: "Co-Founder"},
-  { id: 3, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676273/Harshika_Sethi_o8hcu1.jpg", title: "Harshika Sethi", desc: "Creative Head"},
+  { id: 2, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741710111/cofounder_3_mm03t0.jpg", title: "Surekha Sethi", desc: "Co-Founder"},
+  { id: 3, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741710434/creativehead_frrjjx.jpg", title: "Harshika Sethi", desc: "Creative Head"},
 ];
 
 const Carousel = () => {
@@ -36,13 +36,13 @@ const Carousel = () => {
       transition={{ duration: 1, ease: "easeOut" }}
       className="w-full max-w-7xl mx-auto py-10 px-10"
     >
-      <h2 className="text-4xl sm:text-5xl font-bold text-white w-full mb-8">Carousel Section</h2>
+      <h2 className="text-4xl sm:text-5xl font-bold text-white w-full mb-8">Our Team</h2>
       <Slider {...settings}>
         {data.map((item) => (
           <div key={item.id} className="p-4">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               {/* Image */}
-              <img src={item.img} alt={item.title} className="w-full h-40 object-cover" />
+              <img src={item.img} alt={item.title} className="w-full h-80 object-cover" />
 
               {/* Content */}
               <div className="p-4 bg-stone-400">

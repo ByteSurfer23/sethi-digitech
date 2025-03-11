@@ -24,10 +24,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold">Follow Us</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">Facebook</a></li>
-              <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">Twitter</a></li>
-              <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
-              <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/sethi-digitech-agency/" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/sethidigitech/" target="_blank" rel="noopener noreferrer" className="hover:text-white">Instagram</a></li>
             </ul>
           </div>
           <div>

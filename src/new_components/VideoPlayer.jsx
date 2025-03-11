@@ -12,7 +12,7 @@ export default function VideoPlayer() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        Our Founder's Speech
+        From the Founder
       </motion.h2>
 
       {/* Video Container */}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const faqData = [
   {
-    question: "What is Sethi DigiTech?",
+    question: "Why Sethi Digitech?",
     answer:
       "Sethi DigiTech is a digital agency focused on enhancing your online presence. We specialize in training teams to adapt to the latest AI and productivity workflows. Our goal is to empower businesses for future success.",
   },
