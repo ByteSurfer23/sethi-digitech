@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const companies = [
-  { id: 1, img: "https://via.placeholder.com/40", name: "AI & Productivity Consulting", desc: "Leading in tech innovation." },
-  { id: 2, img: "https://via.placeholder.com/40", name: "Digital Marketing", desc: "Excellence in software solutions." },
-  { id: 3, img: "https://via.placeholder.com/40", name: "Web Development", desc: "Pioneering AI advancements." }
+  { id: 1, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741677037/AI_3_n34wtz.jpg", name: "AI & Productivity Consulting", desc: "Intelligent solutions for tomorrow." },
+  { id: 2, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676901/digital_marketing_agency_zkdqgl.png", name: "Digital Marketing", desc: "Elevating brands through strategy." },
+  { id: 3, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676943/Contact_2_yyaiph.jpg", name: "Web Development", desc: "Building seamless digital experiences." }
 ];
 
 export default function ServiceGrid() {
@@ -21,7 +21,7 @@ export default function ServiceGrid() {
             whileHover={{ scale: 1.05 }}
             className="bg-gray-300 p-6 rounded-lg shadow-md text-center transform transition-all duration-300 w-60 sm:w-80"
           >
-            <img src={company.img} alt={company.name} className="w-14 h-14 mx-auto" />
+            <img src={company.img} alt={company.name} className="w-30 h-30 mx-auto" />
             <h3 className="mt-2 text-xl font-bold text-gray-900">{company.name}</h3>
             <p className="text-md text-gray-700 mt-1">{company.desc}</p>
           </motion.div>

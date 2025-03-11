@@ -56,26 +56,29 @@ const Layout = () => {
 
   return (
     <div className="bg-white dark:bg-stone-900 relative min-h-screen">
-                <Link to="/" className=" hover:bg-blue-300 px-2 py-1 sm:px-3 sm:py-2 rounded-md shadow-md hover:shadow-md transition-all">
-            Logo
-          </Link>  
       {/* Theme Toggle Button */}
       <button
         type="button"
         onClick={()=>{}}
-        className="p-2 z-10 right-2 sm:right-3 top-2 sm:top-4 dark:bg-blue-300 text-sm sm:text-lg rounded-md absolute shadow-md hover:shadow-lg transition-all hover:-translate-y-1 sm:mt-5 sm:mr-5 mt-5 mr-2"
+        className="p-2 z-10 right-2 sm:right-3 top-2 sm:top-4 dark:bg-blue-300 text-sm sm:text-lg rounded-md absolute shadow-md hover:shadow-lg transition-all hover:-translate-y-1  sm:mr-5  mr-2"
       >
         <Link to="/contact"><AiOutlineMail className="w-5 h-5 sm:w-6 sm:h-6" /></Link>
 
       </button>
 
       {/* Navbar */}
-      <nav className="flex items-center justify-center py-2 px-4 sm:py-2 sm:px-4 bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-500 ">
+      <nav className=" flex items-center justify-center py-2 px-4 sm:py-2 sm:px-4 bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-500 ">
+        
+ 
+        
         <div className="ml-1 sm:ml-2 flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8">
           {/* Logo Placeholder */}
 
         </div>
         <div className="border-stone-800 border-[1px]  flex sm:space-x-4 text-xs sm:text-sm md:text-base font-medium shadow-md px-2 py-1 sm:px-3 sm:py-2 rounded-md transition-transform transform hover:shadow-xl hover:-translate-y-1">
+        <Link to="/" className=" hover:bg-blue-300 px-2 py-1 sm:px-3 sm:py-2 rounded-md shadow-md hover:shadow-md transition-all">
+            Home
+          </Link>
           <Link to="/about" className=" hover:bg-blue-300 px-2 py-1 sm:px-3 sm:py-2 rounded-md shadow-md hover:shadow-md transition-all">
             About
           </Link>

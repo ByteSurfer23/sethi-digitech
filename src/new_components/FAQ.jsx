@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const faqData = [
   {
@@ -97,9 +98,11 @@ const FAQSection = () => {
       <div className="mt-10 text-center">
         <h3 className="text-xl font-bold text-gray-700">Still have questions?</h3>
         <p className="text-gray-400">We're here to help you find the answers.</p>
+        <Link to="/contact">
         <button className="mt-4 px-6 py-2 border border-gray-500 text-gray-500 rounded-lg hover:bg-gray-200">
-          Contact
+        Contact
         </button>
+        </Link>
       </div>
     </motion.div>
   );

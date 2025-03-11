@@ -6,12 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const data = [
-  { id: 1, img: "https://via.placeholder.com/300", title: "Card 1", desc: "Short desc", text: "Some additional text" },
-  { id: 2, img: "https://via.placeholder.com/300", title: "Card 2", desc: "Short desc", text: "Some additional text" },
-  { id: 3, img: "https://via.placeholder.com/300", title: "Card 3", desc: "Short desc", text: "Some additional text" },
-  { id: 4, img: "https://via.placeholder.com/300", title: "Card 4", desc: "Short desc", text: "Some additional text" },
-  { id: 5, img: "https://via.placeholder.com/300", title: "Card 5", desc: "Short desc", text: "Some additional text" },
-  { id: 6, img: "https://via.placeholder.com/300", title: "Card 6", desc: "Short desc", text: "Some additional text" },
+  { id: 1, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676302/Vansh_Sethi_hrbfz4.jpg", title: "Vansh Sethi", desc: "Founder" },
+  { id: 2, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676279/Surekha_Sethi_yuxeed.jpg", title: "Surekha Sethi", desc: "Co-Founder"},
+  { id: 3, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741676273/Harshika_Sethi_o8hcu1.jpg", title: "Harshika Sethi", desc: "Creative Head"},
 ];
 
 const Carousel = () => {
@@ -22,7 +19,7 @@ const Carousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 4 } }, // lg and above

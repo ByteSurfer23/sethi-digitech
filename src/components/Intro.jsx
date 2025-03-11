@@ -30,12 +30,12 @@ const MainText = ({ theme }) => {
 
 
         {/* Animated Text Below */}
-        <div className="mt-4 sm:mt-8 w-4/5 sm:w-4/5 md:w-4/5">
+        <div className="mt-4 sm:mt-8 w-9/10 sm:w-9/10 md:w-9/10">
           <div
             className="font-semibold text-sm sm:text-xl md:text-2xl text-gray-500">
             <TypeAnimation
               sequence={[
-                "We believe in empowering your online presence through Digital Marketing & future proof your team by making them adapt to latest AI & productivity workflows.",
+                "Empowering your online presence with digital marketing & future-proofing your team with AI-driven productivity.",
                 1000,
                 " ", // Small pause
                 100,

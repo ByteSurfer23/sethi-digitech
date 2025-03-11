@@ -39,8 +39,8 @@ const ReachOut = () => {
                 <span>Email</span>
               </div>
               <p className="text-gray-300 mt-1">Contact us anytime</p>
-              <a href="mailto:hello@example.com" className="text-blue-400 hover:underline">
-                hello@example.com
+              <a href="mailto:sethidigitech@gmail.com" className="text-blue-400 hover:underline">
+              sethidigitech@gmail.com
               </a>
             </div>
 
@@ -51,8 +51,8 @@ const ReachOut = () => {
                 <span>Phone</span>
               </div>
               <p className="text-gray-300 mt-1">Call for support</p>
-              <a href="tel:+911234567890" className="text-blue-400 hover:underline">
-                +91 12345 67890
+              <a href="tel:++919354231079" className="text-blue-400 hover:underline">
+              +91 9354231079
               </a>
             </div>
 
@@ -75,9 +75,14 @@ const ReachOut = () => {
             viewport={{ once: false, amount: 0.2 }}
             className="flex-1"
           >
-            <div className="w-full h-64 bg-gray-300 flex items-center justify-center">
-              <span className="text-gray-600">[Image Placeholder]</span>
-            </div>
+            <div className="w-full h-64 bg-transparent flex items-center justify-center">
+  <img 
+    src="https://res.cloudinary.com/ddljq4uyx/image/upload/v1741679305/Sethi_DigiTech_Logo_ainocd.svg" 
+    alt="Logo" 
+    className="max-w-full max-h-full object-contain"
+  />
+</div>
+
           </motion.div>
 
         </div>

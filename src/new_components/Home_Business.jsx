@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
 
 const companies = [
-  { id: 1, img: "https://via.placeholder.com/40", name: "Company A", desc: "Leading in tech innovation." },
-  { id: 2, img: "https://via.placeholder.com/40", name: "Company B", desc: "Excellence in software solutions." },
-  { id: 3, img: "https://via.placeholder.com/40", name: "Company C", desc: "Pioneering AI advancements." }
+  { id: 1, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741631423/courses_wallah_bu2i0u.jpg", name: "Courses Wallah", desc: "One-Stop Destination for Premium Coding & Creative Courses at an Unbeatable Price" },
+  { id: 2, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741631433/Hijama_For_Wellness_Lajpat_Nagar_bw3toh.png", name: "Hijama for wellness", desc: "Your Premier Destination for Cupping Therapy and Holistic Health" },
+  { id: 3, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741631375/cgf_bioenergy_logo_f83pxq.jpg", name: "Bio Sarthi", desc: "Empowering Biogas Ecosystem with Data and AI" },
+  { id: 4, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741631445/Kitebaazlogo_u4v0ce.jpg", name: "Kitebaaz", desc: "Ultimate Destination for All Kite Enthusiasts" },
+  { id: 5, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741631456/Shine_Dental_Care_Logo_copy_vhpg3x.png", name: "Shine Dental Care", desc: "Your Smile is Our Passion" },
+  { id: 6, img: "https://res.cloudinary.com/ddljq4uyx/image/upload/v1741631439/IncircoAcademy_bwb7be.png", name: "Incirco Academy", desc: "Your gateway to a career in eCommerce is here" }
 ];
 
 export default function BrandGrid() {

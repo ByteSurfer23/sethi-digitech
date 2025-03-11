@@ -3,32 +3,24 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Aditi Sharma",
-    role: "CEO, Tech Innovations",
-    company: "Webflow",
-    review: "Sethi DigiTech revolutionized our online presence and efficiency!",
-    image: "https://via.placeholder.com/50",
+    name: "Mr. Yogesh Sethi",
+    role: "(Founder, Shine Dental Care & Implant Centre)",
+    review: "Played a vital role in digitally marketing our Dental Clinic business. The owner is skilled in Managing Google Business Profiles, SEO, Social Media Marketing, Logo Design & Brand Strategy. Highly recommended for Digital Marketing Services.",
   },
   {
     name: "Rajiv Mehta",
-    role: "Manager, Future Tech",
-    company: "Webflow",
-    review: "Their training program was a game changer for our team!",
-    image: "https://via.placeholder.com/50",
+    role: "(Manager, Future Tech)",
+    review: "Sethi DigiTech has been a game-changer for us! Their structured Content Creation Framework streamlined our strategy, while their expert handling of our social media, content writing, video editing, and design services has amplified our brand’s impact. Highly recommended!",
   },
   {
-    name: "Simran Kapoor",
-    role: "Founder, AI Solutions",
-    company: "Webflow",
-    review: "Exceptional service! Their AI solutions transformed our workflow.",
-    image: "https://via.placeholder.com/50",
+    name: "Md. Nadeem",
+    role: "(Founder, Hijama For Wellness)",
+    review: "Sethi DigiTech helped us establish a strong digital presence by setting up and managing our Google Business Profile. Their logo and banner services gave our brand a professional identity, and their expert insights have been invaluable in scaling our online reach. Highly recommended!",
   },
   {
-    name: "Kunal Verma",
-    role: "CTO, Digital Labs",
-    company: "Webflow",
-    review: "Highly professional team. Their strategies boosted our efficiency!",
-    image: "https://via.placeholder.com/50",
+    name: "Anonymous",
+    role: "(Founder, Courses Wallah)",
+    review: "Sethi DigiTech delivered exactly what we needed—a sleek, high-converting website with an eCommerce store and landing page. Their expertise in logo design, content writing, and Telegram marketing gave our brand the perfect launchpad for success. Highly impressed!",
   },
 ];
 
@@ -68,16 +60,10 @@ const TestimonialSection = () => {
 
             {/* Author */}
             <div className="flex items-center space-x-3">
-              <img
-                src={testimonial.image}
-                alt={testimonial.name}
-                className="w-10 h-10 rounded-full"
-              />
               <div>
                 <p className="text-gray-400 font-semibold">{testimonial.name}</p>
                 <p className="text-gray-400 text-sm">{testimonial.role}</p>
               </div>
-              <span className="ml-auto text-gray-400 font-semibold">{testimonial.company}</span>
             </div>
           </motion.div>
         ))}
