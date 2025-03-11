@@ -39,7 +39,7 @@ export default function UnlockAIPotential() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="text-3xl md:text-6xl font-bold text-gray-100 mb-6"
         >
-          Stay Connected, Grow Together.
+          Contact Us
         </motion.h1>
       </div>
 

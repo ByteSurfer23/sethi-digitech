@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
 const steps = [
-  "Defining the Objective 🎯 - Set clear goals to create a roadmap for measurable success.",
-  "Understanding Your Target Group 👥 - Dive deep into customer insights for targeted connections.",
-  "Competitor Analysis 🔍 - Analyze competitors to position your brand ahead.",
-  "Defining KPIs for Tracking 📊 - Set measurable KPIs to ensure strategy effectiveness.",
-  "Executing the Plan 🚀 - Implement targeted campaigns with engaging visuals and content",
-  "Analyzing, Adjusting & Reporting 🔄 - Monitor performance, refine strategies, and maintain transparent reporting."
+  {head:"Defining the Objective 🎯  ",text:"Set clear goals to create a roadmap for measurable success."},
+  {head:"Understanding Your Target Group 👥  ",text:"Dive deep into customer insights for targeted connections."},
+  {head:"Competitor Analysis 🔍  ",text:"Analyze competitors to position your brand ahead."},
+  {head:"Defining KPIs for Tracking 📊 ", text:"Set measurable KPIs to ensure strategy effectiveness."},
+  {head:"Executing the Plan 🚀 " , text:"Implement targeted campaigns with engaging visuals and content"},
+  {head:"Analyzing, Adjusting & Reporting 🔄 " , text:"Monitor performance, refine strategies, and maintain transparent reporting."}
 ];
 
 export default function ScrollingSteps() {
@@ -43,8 +43,7 @@ export default function ScrollingSteps() {
             ></div>
             <div className="bg-white/10 backdrop-blur-xl p-6 rounded-lg shadow-lg w-3/4 transition-transform duration-500 border border-white/20 ml-6 group-hover:shadow-xl">
               <div className="text-blue-300 font-bold text-sm">STEP {index + 1}</div>
-              <div className="text-xl font-semibold mt-2">{step}</div>
-              <p className="text-[#D3D3D3] mt-2 hidden sm:block">This stage focuses on ensuring a smooth workflow.</p>
+              <div className="text-xl font-semibold mt-2"><p className="font-bold">{step.head}</p><p className="font-light">{step.text}</p></div>
             </div>
           </div>
         ))}
