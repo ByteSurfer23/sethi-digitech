@@ -35,7 +35,7 @@ export default function Programs() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-3xl md:text-5xl font-bold text-gray-200 text-center md:text-left mb-8"
       >
-        Our Values
+        Our Programs
       </motion.h2>
 
       {/* Grid with Animated Cards */}

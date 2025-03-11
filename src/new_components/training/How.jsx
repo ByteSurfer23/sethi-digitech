@@ -35,7 +35,7 @@ export default function How() {
         transition={{ duration: 0.7, ease: "easeOut" }}
         className="text-3xl md:text-5xl font-bold text-gray-100 text-center md:text-left mb-10"
       >
-        Our Values
+        How We Train ?
       </motion.h2>
 
       {/* Grid with Animated Cards */}

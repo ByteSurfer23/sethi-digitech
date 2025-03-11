@@ -32,7 +32,7 @@ export default function TextSection() {
       </div>
       <div className="flex-1 bg-gray-300 text-black p-10 flex items-center justify-center text-center md:text-left rounded-xl h-full text-md sm:text-lg">
         <p className="text-xs sm:text-lg leading-relaxed">
-        AI in digital marketing helps businesses grow by automating tasks, personalizing content, and optimizing campaigns. It analyzes consumer behavior, predicts trends, and enhances engagement through chatbots and smart recommendations. AI-driven SEO improves search rankings, while automated ad targeting increases ROI by reaching the right audience efficiently. With predictive analytics, businesses can make data-driven decisions, refine marketing strategies, and maximize conversions. AI streamlines content creation, email marketing, and customer support, saving time and resources. By leveraging AI-powered tools, companies can enhance efficiency, boost brand visibility, and stay competitive in an evolving digital landscape, ensuring long-term success and growth.
+        AI in digital marketing automates tasks, personalizes content, and optimizes campaigns. It enhances engagement, improves SEO, and boosts ROI through smart targeting and predictive analytics. AI-powered tools streamline marketing, increase efficiency, and drive long-term success.
         </p>
       </div>
     </motion.div>

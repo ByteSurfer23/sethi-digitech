@@ -26,7 +26,7 @@ const values = [
 
 export default function Why() {
   return (
-    <div id="values-section" className="py-16 px-2 max-w-screen-xl mx-auto">
+    <div id="values-section" className="py-32 px-2 max-w-screen-xl mx-auto">
       {/* Heading Animation */}
       <motion.h2
         initial={{ opacity: 0, y: 50 }}
@@ -35,7 +35,7 @@ export default function Why() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-3xl md:text-5xl font-bold text-gray-200 text-center md:text-left mb-8"
       >
-        Our Values
+        Why AI Training Matters ?
       </motion.h2>
 
       {/* Grid with Animated Cards */}
