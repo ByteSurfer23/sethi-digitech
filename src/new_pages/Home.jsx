@@ -11,6 +11,7 @@ import Home_Brands from '../new_components/Home_Business'
 import BrandGrid from '../new_components/Home_Business'
 import ServicesGrid from '../new_components/Home_Services'
 import WhyUs from '../new_components/Why'
+import VideoPlayer from '../new_components/VideoPlayer'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
     <MainText/>
     <Booking/>
     <ServicesGrid/>
+    <VideoPlayer/>
     <BrandGrid/>
     <TestimonialSection/>
     <Carousel/>
