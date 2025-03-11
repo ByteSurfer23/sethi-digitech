@@ -89,7 +89,7 @@ const Layout = () => {
             Training
           </Link>
           <Link to="/contact" className=" hover:bg-blue-300 px-2 py-1 sm:px-3 sm:py-2 rounded-md shadow-md hover:shadow-md transition-all">
-            Contact Us
+            Contact
           </Link>
         </div>
       </nav>
